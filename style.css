@@ -1,0 +1,534 @@
+body
+{
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ffffff;
+	color: #000000;
+	font-family: 'Roboto Slab', serif;
+	font-size: 17 px;
+	text-align: center;
+}
+
+
+h1
+{ 
+color: #153AFF;
+}
+
+#mainimg
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  width: 100%;
+  height: 200px;
+}
+
+nav 
+{
+background-color: #ffffff;
+text-align: center;
+}
+
+.menu
+{
+	list-style-type: none;
+	margin: 0;
+	margin-left: 10px;
+	font-size: 18px;
+	min-height: 36px;
+	text-align: center;
+	float: left;
+}
+
+.menu > li
+{
+	display: inline-block;
+}
+
+.menu a
+{
+	color: #0c2235;
+	text-decoration: none;
+}
+
+
+.option
+{
+	float:left;
+	min-width: 455px;
+	padding: 10px;
+
+
+}
+
+.option:hover
+{
+	cursor:poiner;
+	background-color: #0c2235;
+}
+
+a:hover
+{
+ color: white; 
+}
+
+.options
+{
+ float:left;
+ min-width: 455px;
+ padding: 10px;
+ background-color: #0c2235;
+}
+.zapisz
+{
+  font-size: 25px;
+  padding:5px;
+  background-color: #0c2235;
+  color:white;
+  width:470px;
+  border-radius:10px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.zapisz:hover
+{
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+#InfoReg
+{
+color: #0c2235;
+font-size: 37px;
+font-weight: bold;
+margin-bottom: 70px;
+text-align: center;
+}
+
+#form{
+  Color: #010052;
+  font-size: 23px;
+  width: 470px;
+  height: 800px;
+  font-weight: bold;
+  text-align: left;
+  margin:auto;
+  clear:both;
+}
+
+#ContentReg
+{
+  Color: #010052;
+  font-size: 23px;
+  height: 800px;
+  font-weight: bold;
+  text-align: left;
+  margin:auto;
+  clear:both;
+  width: 1500px;
+}
+
+#ContentRegLeft
+{
+  Color: #010052;
+  font-size: 23px;
+  height: 800px;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 100px;
+  margin-top: 30px;
+  float:left;
+}
+#ContentRegRight
+{
+  Color: #010052;
+  font-size: 23px;
+  height: 800px;
+  font-weight: bold;
+  text-align: left;
+  margin-right: 350px;
+  margin-top: 65px;
+  float:right;
+}
+
+#RezImg{
+  float:left;
+  width: 380px;
+  height: 220px;
+  clear:both;
+}
+
+#textRez{
+  width: 380px;
+  height: 220px;
+  font-size: 16px;
+}
+#Rezerwacja
+{
+  background-color: #0c2235;
+  color:white;
+  font-size: 40px;
+  text-align: center;
+}
+
+#Rodzaj{
+  background-color: #0c2235;
+  color:white;
+  margin-top:20px;
+  font-size: 20px;
+}
+
+.input{
+   float:right;
+
+}
+
+#Content
+{
+	Color: #010052;
+	font-size: 15 px;
+	
+}
+
+#text
+{
+float: left;
+padding: 50px;
+}
+#calendar
+{
+	padding: 100px;
+}
+
+section.calendar {
+float: right;
+  background-color: #0c2235;
+  color: #ffffff;
+  width: 300px;
+  padding: 15px;
+  box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+}
+section.calendar h1 {
+  text-align: center;
+  color: #ffffff;
+  margin: 0 0 30px 0;
+}
+section.calendar form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+section.calendar form label.weekday {
+  display: inline-block;
+  width: 25px;
+  margin: 8px;
+  text-align: center;
+  color: #999;
+}
+section.calendar form form {
+  margin: 0;
+  padding: 0;
+}
+section.calendar form label.day {
+  display: inline-block;
+  width: 25px;
+  margin: 8px;
+}
+section.calendar form label.day span {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  margin: -2px 0 0 -2px;
+  border-radius: 50%;
+  border: 2px solid #29323f;
+  text-align: center;
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+section.calendar form label.day span:hover {
+  border-color: #e7d84f;
+}
+section.calendar form label.day em {
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border-color: #29323f;
+  width: 3px;
+  height: 3px;
+  background-color: #685e02;
+  margin-left: 11px;
+  margin-top: 2px;
+  opacity: 0;
+  transition: all 0.2s linear;
+}
+section.calendar form label.day input[type="text"] {
+  border: 0;
+  opacity: 0;
+  position: absolute;
+  margin-top: 40px;
+  left: -45px;
+  width: 380px;
+  height: 1px;
+  padding: 0;
+  outline: none;
+  font-size: 16px;
+  transition: height 0.2s linear, opacity 0.2s linear, color 0.02s linear;
+  color: #fff;
+}
+
+
+section.calendar form label.day.invalid {
+  opacity: 0;
+  width: 25px;
+  height: 25px;
+}
+section.calendar form label.day.invalid span,
+
+section.calendar div.clearfix {
+  clear: both;
+}
+section.calendar div.hidden {
+  display: none;
+}
+
+
+
+.breadcrumb { 
+  list-style: none; 
+  overflow: hidden; 
+  font: 18px Sans-Serif;
+}
+.breadcrumb li { 
+  float: left; 
+}
+.breadcrumb li a {
+  color: white;
+  text-decoration: none; 
+  padding: 10px 0 10px 65px;
+  background: brown; /* fallback color */
+  background: hsla(34,85%,35%,1); 
+  position: relative; 
+  display: block;
+  float: left;
+}
+
+.breadcrumb li a::after { 
+  content: " "; 
+  display: block; 
+  width: 0; 
+  height: 0;
+  border-top: 50px solid transparent; /* Go big on the size, and let overflow hide */
+  border-bottom: 50px solid transparent;
+  border-left: 30px solid hsla(34,85%,35%,1);
+  position: absolute;
+  top: 50%;
+  margin-top: -50px; 
+  left: 100%;
+  z-index: 2; 
+}
+
+.breadcrumb li a::before { 
+  content: " "; 
+  display: block; 
+  width: 0; 
+  height: 0;
+  border-top: 50px solid transparent;       
+  border-bottom: 50px solid transparent;
+  border-left: 30px solid white;
+  position: absolute;
+  top: 50%;
+  margin-top: -50px; 
+  margin-left: 1px;
+  left: 100%;
+  z-index: 1; 
+}
+
+section.hotellist
+{
+  align-items: center;
+  
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+figure
+{
+  margin: 8px;
+  font-size: 18px;
+}
+figure.room
+{
+  margin: 0px;
+  float: left;
+  font-size: 18px;
+}
+figcaption
+{
+  color: #ffffff;
+  background-color: #0c2235; 
+  padding: 10px;
+
+}
+
+.hotel
+{
+  display: inline-block;
+  margin-top: 10px; 
+  background-color: #ffffff;
+  padding:40px;
+
+
+}
+.hotele
+{
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 80px;
+  float: left;
+  clear: none; 
+}
+
+
+.boxH
+{
+  float: left;
+  
+}
+.imageH
+{
+  float: left;
+  overflow: hidden;
+
+}
+.descH
+{
+  float: left;
+  font-size: 12px;
+  margin-left: 35px;
+}
+
+.descH2
+{
+  float: left;
+  font-size: 12px;
+  margin-left: 35px;
+  margin-top: 25px;
+} 
+.descH3
+{
+  font-size: 14px;
+  margin-left: 0px;
+  margin-top: 15px;
+} 
+button
+{
+  color: #ffffff;
+  background-color: #0c2235;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 8px;
+  font-size: 17px;
+  margin-top: 5px;
+}
+
+.rezerwacja
+{
+  color: #ffffff;
+  background-color: #0c2235;
+  padding: 15px;
+  font-size: 17px;
+  width: 300px;
+
+}
+.space
+{
+  background-color: #ffffff;
+  padding: 5px;
+  font-size: 10px;
+  width: 300px;
+
+}
+
+.fewimg
+{
+  
+}
+
+.gallery
+{
+  list-style: none;
+  float: left;
+  margin-left: -15px;
+}
+
+
+.gallery img
+{
+  background: #ffffff;
+  border-color: #ffffff;
+  border-width: 0px;
+  color: inherit;
+  padding: 0px;
+  vertical-align: top;
+  width: 50px;
+  height: 50px;
+}
+
+.gallery li
+{
+  background: #ffffff;
+  border-color: #ffffff;
+  border-width: 0px;
+  color: inherit;
+  display: inline;
+  float: left;
+  margin: 0px;
+  padding: 5px;
+  float: left;
+}
+
+
+table
+{
+  border-spacing: 7px;
+}
+
+.table1
+{
+  border-spacing: 7px;
+  font-size: 16px;
+}
+td
+{
+border: 1px solid black;
+
+}
+
+.firstcolumn
+{
+  color: #ffffff;
+  background-color: #0c2235;
+}
+.secondcolumn
+{
+  border: 1px solid black;
+}
+
+#footer
+{
+	color: white;
+	position:fixed;
+	bottom:0;
+	left:0;
+	right:0;
+	background-color: #0c2235;
+	text-align: left;
+}
