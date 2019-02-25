@@ -19,3 +19,19 @@ Route::get('/', function(){
 //', function($id));
 
 Route::get('/room', 'PokojController@index');
+
+Route::get('/InfoHotele', 'HotelController@InfoHotele');
+
+Route::get('/InfoPokoje', 'HotelController@InfoPokoje');
+
+Route::get('/Logowanie', 'HotelController@Logowanie');
+
+Route::get('/Rejestracja', 'HotelController@Rejestracja');
+
+Route::get('/RezerwacjeNiezalogowany', 'HotelController@RezerwacjeNiezalogowany');
+
+Route::get('/RezerwacjeZalogowany', 'HotelController@RezerwacjeZalogowany');
+
+Route::get('/ZmianaHasla', 'HotelController@ZmianaHasla');
+
+Route::get('/index', 'HotelController@index');
