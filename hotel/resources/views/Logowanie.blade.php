@@ -9,6 +9,7 @@
 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 
 <body>
+	{{ Form::open(array('url' => 'Logowanie')) }}
 	<nav>
 		<div id="logo">
 			<img id="mainimg" src="/ProjektZespolowy/hotel/public/mainimg.png">
@@ -29,13 +30,16 @@
 		<form action="rejestracja.blade.php" method="POST">
 		<div id="form">	
 			E-mail:  
-			<input type="text" class="input" name="OldPassword"><br><br>
-			Nowe hasło:  
-			<input type="text" class="input" name="Password"><br><br>
+			<input type="text" class="input" name="Email"><br><br>
 			Hasło:  
-			<input type="text" class="input" name="NewPassword"><br><br>
+			<input type="text" class="input" name="Password"><br><br>
+
 			</form>
-			<input type="submit" name="insert" value="Zmień hasło" class="zapisz"><br><br>
+			<?php 
+			<p> {{ $errors->first('email') }}
+   			 {{ $errors->first('haslo') }} 
+			</p>?>
+			<input type="submit" name="insert" value="Zaloguj" class="zapisz"><br><br>
 			<center>lub</center><br>
 			<a href="Rejestracja.blade.php"><input type="submit" name="insert" value="Załóż konto" class="zapisz"></a>
 			

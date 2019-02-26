@@ -17,6 +17,10 @@ class HotelController extends Controller
 	public function Logowanie(){
 		return view('Logowanie');
 	}
+	public function doLogowanie()
+	{
+	// process the form
+	}
 	// GET zwrócenie widoku
 	public function Rejestracja(){
 		return view('Rejestracja');

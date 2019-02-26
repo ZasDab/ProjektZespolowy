@@ -24,7 +24,9 @@ Route::get('/InfoHotele', 'HotelController@InfoHotele');
 
 Route::get('/InfoPokoje', 'HotelController@InfoPokoje');
 
-Route::get('/Logowanie', 'HotelController@Logowanie');
+Route::get('/Logowanie', array('uses' => 'HotelController@Logowanie'));
+
+Route::post('/Logowanie', array('uses' => 'HotelController@doLogowanie'));
 
 Route::get('/Rejestracja', 'HotelController@Rejestracja');
 
