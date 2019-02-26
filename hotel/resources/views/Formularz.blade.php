@@ -7,7 +7,7 @@
 <head>
 <title>Formularz Rejestracji!</title>
 <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"/>
-<link href="{{ asset('css/style.css') }}" rel="stylesheet">
+<link href="/ProjektZespolowy/hotel/public/css/style.css" rel="stylesheet"/>
 
 </head>
 

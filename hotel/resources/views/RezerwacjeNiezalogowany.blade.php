@@ -5,13 +5,13 @@
 <meta charset="utf-8"/>
 <title> Rezerwacje - Logowanie </title>
 <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"/>
-<link href="{{ asset('css/style.css') }}" rel="stylesheet">
+<link href="/ProjektZespolowy/hotel/public/css/style.css" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 
 <body>
 	<nav>
 		<div id="logo">
-			<img id="mainimg" src="mainimg.png">
+			<img id="mainimg" src="/ProjektZespolowy/hotel/public/mainimg.png">
 		</div>
 		<ul class="menu">
 			<li><a class = "option" href="Index.blade.php">Strona główna</a></li>
@@ -30,7 +30,7 @@
 			<figure class="room">
 				<figcaption>Pokój Ryszard</figcaption>
 				<div class="imageH">
-					<a href="#"><img src="hotel2.jpg" width="500px" height="300px" alt="Pokój Ryszard"></a>
+					<a href="#"><img src="/ProjektZespolowy/hotel/public/hotel2.jpg" width="500px" height="300px" alt="Pokój Ryszard"></a>
 				</div>
 				<div class="space">    <br>
 				</div>

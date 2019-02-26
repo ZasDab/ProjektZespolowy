@@ -55,8 +55,8 @@ text-align: center;
 
 .option
 {
-	float:left;
-	min-width: 455px;
+  float:left;
+  min-width: 200px;
 	padding: 10px;
 
 

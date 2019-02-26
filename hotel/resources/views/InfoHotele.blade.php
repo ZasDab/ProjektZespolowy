@@ -5,13 +5,13 @@
 <meta charset="utf-8"/>
 <title> Info Hotele - ZasDab  </title>
 <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"/>
-<link href="{{ asset('css/style.css') }}" rel="stylesheet">
+<link href="/ProjektZespolowy/hotel/public/css/style.css" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 
 <body>
 	<nav>
 		<div id="logo">
-			<img id="mainimg" src="mainimg.png">
+			<img id="mainimg" src="/ProjektZespolowy/hotel/public/mainimg.png">
 		</div>
 		<ul class="menu">
 			<li><a class = "option" href="Index.blade.php">Strona główna</a></li>
@@ -30,7 +30,7 @@
 							</figcaption>
 								<div class="boxH">
 									<div class="imageH">
-									<a href="#"><img src="hotel2.jpg" alt="Hotel Baśka"></a>
+									<a href="#"><img src="/ProjektZespolowy/hotel/public/hotel2.jpg" alt="Hotel Baśka"></a>
 									</div>
 									<div class="descH" >
 									Lorem ipsum dolor sit amet, consectetur <br>
@@ -57,7 +57,7 @@
 							<figcaption>Hotel Kaśka</figcaption>
 								<div class="boxH">
 									<div class="imageH">
-									<a href="#"><img src="hotel2.jpg" alt="Hotel Baśka"></a>
+									<a href="#"><img src="/ProjektZespolowy/hotel/public/hotel2.jpg" alt="Hotel Baśka"></a>
 									</div>
 									<div class="descH" >
 									Lorem ipsum dolor sit amet, consectetur <br>
@@ -86,7 +86,7 @@
 							<figcaption>Hotel Aśka</figcaption>
 								<div class="boxH">
 									<div class="imageH">
-									<a href="#"><img src="hotel2.jpg" alt="Hotel Baśka"></a>
+									<a href="#"><img src="/ProjektZespolowy/hotel/public/hotel2.jpg" alt="Hotel Baśka"></a>
 									</div>
 									<div class="descH" >
 									Lorem ipsum dolor sit amet, consectetur <br>
@@ -114,7 +114,7 @@
 							<figcaption>Hotel Małgośka</figcaption>
 								<div class="boxH">
 									<div class="imageH">
-									<a href="#"><img src="hotel2.jpg" alt="Hotel Baśka"></a>
+									<a href="#"><img src="/ProjektZespolowy/hotel/public/hotel2.jpg" alt="Hotel Baśka"></a>
 									</div>
 									<div class="descH" >
 									Lorem ipsum dolor sit amet, consectetur <br>

@@ -56,7 +56,7 @@ text-align: center;
 .option
 {
 	float:left;
-	min-width: 455px;
+	min-width: 400px;
 	padding: 10px;
 
 
@@ -76,7 +76,7 @@ a:hover
 .options
 {
  float:left;
- min-width: 455px;
+ min-width: 400px;
  padding: 10px;
  background-color: #0c2235;
 }
