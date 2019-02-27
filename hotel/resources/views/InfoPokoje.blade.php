@@ -15,7 +15,7 @@
 		</div>
 		<ul class="menu">
 			<li><a class = "option" href="Index.blade.php">Strona główna</a></li>
-			<li><a class = "option" href="InfoHotele.blade.php" >Informacje o hotelach</a></li>
+			<li><a class = "options" href="InfoHotele.blade.php" style="color:#ffffff">Informacje o pokojach</a></li>
 			<li><a class = "option" href="RezerwacjeZalogowany.blade.php" >Moje rezerwacje</a></li>
 			<li><a class = "option" href="Logowanie.blade.php">Mój profil</a></li>
 		</ul>
