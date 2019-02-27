@@ -37,3 +37,10 @@ Route::get('/RezerwacjeZalogowany', 'HotelController@RezerwacjeZalogowany');
 Route::get('/ZmianaHasla', 'HotelController@ZmianaHasla');
 
 Route::get('/index', 'HotelController@index');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

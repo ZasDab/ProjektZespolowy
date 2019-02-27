@@ -24,21 +24,20 @@
 	</nav>
 
 
-
+<?php Form::open(array('url' => 'Logowanie')) ?>
 	<div id="ContentReg">
 		<div id ="InfoReg">	Dane użytkownika:</div>
 		<form action="rejestracja.blade.php" method="POST">
 		<div id="form">	
 			E-mail:  
+			<?php Form::text('email') ?>
 			<input type="text" class="input" name="Email"><br><br>
 			Hasło:  
+			<?php Form::password('password') ?>
 			<input type="text" class="input" name="Password"><br><br>
-
+			
 			</form>
-			<?php 
-			<p> {{ $errors->first('email') }}
-   			 {{ $errors->first('haslo') }} 
-			</p>?>
+			<?php Form::submit('Submit') ?>
 			<input type="submit" name="insert" value="Zaloguj" class="zapisz"><br><br>
 			<center>lub</center><br>
 			<a href="Rejestracja.blade.php"><input type="submit" name="insert" value="Załóż konto" class="zapisz"></a>
